@@ -1,5 +1,5 @@
 # Researching Switch Transformers
-### Looking to solve open problems in Switch Tranformer fine-tuning and inference.
+### Looking to solve open problems in Switch Transformer fine-tuning and inference.
 
 ### Running Code
 
