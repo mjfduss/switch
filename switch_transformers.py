@@ -12,7 +12,7 @@ import data
 parser = argparse.ArgumentParser(
     prog="SwitchTransformersFineTuner", 
     description="Runs the hugging face transformers Trainer to fine tune the Switch Transformer networks")
-parser.add_argument('--epochs', type=int, default=1000)
+parser.add_argument('--epochs', type=int, default=100)
 parser.add_argument('--experts', type=int, default=32)
 parser.add_argument('--task', choices=['translation', 'summarization'], default='translation', help='Choice of dataset type to fine tune with')
 parser.add_argument('--dense', action='store_true', help='Run the T5 dense, non Switch Transformer network for comparison')
